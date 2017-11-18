@@ -1,0 +1,24 @@
+.background    { background: lightblue;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: orange; }
+.wall          { background: green;   }
+
+.actor  { position: absolute;  }
+.coin   { background: yellow; }
+.player { background: black; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: red;
+}
+.won .player {
+  background: blue;
+}
